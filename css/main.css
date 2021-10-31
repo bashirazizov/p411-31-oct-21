@@ -1,0 +1,266 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* h1{
+    color: blue;
+}
+p{
+    color: red;
+}
+span.text, a.text{
+    color: aqua;
+}
+#heading{
+    color: coral;
+} */
+
+
+
+
+/* a.text.test-2{
+    color:crimson;
+}
+.about p{
+    color: red;
+}
+.about a.text{
+    color: yellowgreen;
+}
+p .colorful{
+    color: darkgoldenrod;
+}
+.about > p {
+    font-size: 30px;
+}
+.text + a{
+    font-weight: bolder;
+    font-style: italic;
+}
+div ~ p{
+    color: darkolivegreen;
+}
+
+div .text:hover{
+    color: darksalmon!important;
+    font-size: 20px!important;
+}
+.text:first-child{
+    background-color: red;
+}
+a[target]{
+    color:cadetblue;
+}
+.about a[target="_blank"]{
+    color:cadetblue;
+} */
+
+
+
+
+
+
+
+/* #colors{
+    background-color: #ACFCD9;
+}
+#colors h1{
+    color:lime;
+    color:rgb(199, 192, 135);
+    color: rgba(255, 0, 0, 0.3);
+    color: #8B80F9;
+}
+#colors button{
+    background-color: #ACFCD9;
+    color: #8B80F9;
+} */
+
+/* #backgrounded{
+    width: 600px;
+    height: 600px;
+
+    background-color: #8B80F9;
+
+    background-image: url("../images/efir.jpeg");
+    background-image: url("../images/sydney.jpeg");
+    background-image: url("../images/aus.jpeg");
+    background-size: cover;
+    background-position: top right;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: #8B80F9 url("../images/efir.jpeg") center no-repeat;
+
+} */
+
+/* #backgrounded{
+    width: 600px;
+    height: 600px;
+    background-image: url("../images/pattern.jpg");
+    background-size: 200px;
+} */
+
+
+/* #bordered{
+    width: 600px;
+    background-color:#3D315B;
+    height: 600px;
+    border-width: 2px;
+    border-color: #F03A47;
+    border-style:dashed;
+    border-bottom-style: solid;
+    border-bottom-color: #3D315B;
+    border-right-color: #3D315B;
+
+    border: 1px solid black;
+    border-radius: 0px;
+    border-bottom-left-radius: 30px;
+    border-radius: 50%;
+} */
+
+
+/* #cool-button{
+    background-color:#102542;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    font-size: 20px;
+    padding: 10px 30px;
+} */
+
+/* #widthed{
+    background-color:#102542;
+    
+    width: 500px;
+    height: 500px;
+    
+    width: 100%;
+   
+    width: 100vw;
+    height: 100vh;
+
+    height: 200px;
+    width: 80%;
+
+    min-width: 500px;
+    min-height: 500px;
+
+    max-width: 500px;
+} */
+
+/* #box-modeled{
+    box-sizing: border-box;
+    width: 400px;
+    background-color: #EE4266;
+    padding: 20px;
+    padding-top: 100px;
+    padding:10px 30px 40px;
+    border:1px solid black;
+
+    margin: 0px;
+}
+#box-modeled p{
+    color: white;
+    margin-bottom: 50px;
+} */
+
+/* .text-styled{
+    padding:20px 30px;
+    color: #3581B8;
+    font-size: 40px;
+    text-align: justify;
+    text-decoration:underline dotted;
+
+    text-transform: uppercase;
+    text-indent: 100px;
+
+    letter-spacing: 10px;
+
+    line-height: 70px;
+
+    word-spacing: 90px;
+
+    text-shadow: 0px 0px 20px red;
+}
+.text-styled:hover{
+    font-size: 45px;
+} */
+
+/* @font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Strengthen;
+    src: url("../fonts/Strengthen.ttf");
+} */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about-section{
+    padding:20px 30px;
+
+}
+#about-section h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+#about-section p{
+    margin-bottom: 40px;
+}
+#about-section img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+p.text-styled{
+    font-size: 30px;
+    font-weight: lighter;
+    /* font-style: italic;
+    font-weight: lighter; */
+}
+
+p button{
+    font-size: 50px;
+    color: red;
+}
+a.social-icon{
+    color: #44CF6C;
+    text-decoration: none;
+    border:.5px solid #44CF6C;
+    border-radius: 50%;
+
+    line-height:80px;
+    width: 80px;
+    text-align: center;
+
+    display: inline-block;
+}
+a.social-icon:hover{
+    transform: scale(1.1);
+}
+#about-section .contact-button{
+    padding: 10px 30px;
+    background-color: #44CF6C;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold!important;
+    text-decoration: none;
+}
+#about-section .contact-button:hover{
+    box-shadow: 0px 0px 20px -6px #323232;
+}
+#about-section input{
+    padding: 10px 0px 10px 20px;
+    font-size: 30px;
+    border-radius: 8px;
+}
+#about-section input:focus{
+    box-shadow: 0px 0px 20px -6px #323232;
+}
